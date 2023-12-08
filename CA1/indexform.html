@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>form</title>
         <link rel="stylesheet" href="css/style.css">
-        <link rel="script" href="javascript/script.js">
+
     </head>
     <body>
 
@@ -14,42 +14,50 @@
 
         <br>
         <form>
-            <div>
-                <lable>First Name:</lable>
-                <input type="text" id="fName" placeholder="Enter First Name">
-            </div>
+            <div id="myForm">
+                <div id="div1">
+                    <lable>First Name:</lable>
+                    <input type="text" id="fName" placeholder="Enter First Name">
+                </div>
 
-            <br>
-
-            <div>
-                <lable>Last Name:</lable>
-                <input type="text" id="lName" placeholder="Enter Last Name">
-            </div>
-
-            <br>
-
-            <div>
-                <lable>Email:</lable>
-                <input type="text" id="Email" placeholder="Enter Email Adress">
-            </div>
-
-            <br>
-
-            <div>
-                <lable for="subscribe">would you like to recieve a news letter with <br> weekly updates on the invironment</lable>
                 <br>
-                <input type="checkbox" id="subscribe">
-            </div>
 
-            <br>
+                <div id="div2">
+                    <lable>Last Name:</lable>
+                    <input type="text" id="lName" placeholder="Enter Last Name">
+                </div>
 
-            <div>
+                <br>
 
-                    <input type="reset">
+                <div id="div3">
+                    <lable>Email:</lable>
+                    <input type="text" id="Email" placeholder="Enter Email Adress">
+                </div>
 
-                    <input type="submit">
-            </div>
+                <br>
+
+                <div id="div4">
+                    <lable for="subscribe">would you like to recieve a news letter with <br> weekly 
+                        updates on ways to increase your sustainablity at home</lable>
+                    <br>
+                    <input type="checkbox" id="subscribe">
+                </div>
+
+                <br>
+            </div>    
+                <div id="div5">
+                        
+                    <button type="button" onclick="resetForm()">Reset</button>
+
+                    <button type="button" onclick="submitForm()" id="check">Submit</button>
+                </div>
+            
+
+            <script src="javascript/script.js"></script>
+
+
         </form>
+
     </body>
 
 </html>
