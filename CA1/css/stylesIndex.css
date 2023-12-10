@@ -1,5 +1,3 @@
-/* Header */
-
 
 body{
     background-color: rgb(116, 204, 105);
@@ -41,9 +39,28 @@ h1{
 
 @media only screen and (max-width: 600px) {
     body{
-      display: none;
+      width: auto;
+      font-size: 20px;
     }
   }
+  @media only screen and (max-width: 768px) {
+    
+    body{
+      width: auto;
+      font-size: 20px;
+      }
+    }
+
+    @media only screen and (min-width: 992px){
+        body{
+            width: 98%;
+            font-size: 15px;
+        }
+    }
+    img{
+        width: auto;
+        height: auto;
+    }
 
 /* Navigation Bar (NavBar) */
 
