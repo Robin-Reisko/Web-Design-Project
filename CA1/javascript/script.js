@@ -1,7 +1,7 @@
 console.log('hello');
 
 
-
+//sends all form information to the console 
 var form = document.getElementById('form');
 
 form.addEventListener('submit',function(event){
