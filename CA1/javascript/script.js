@@ -19,19 +19,25 @@ form.addEventListener('submit',function(event){
 
 console.log(email);
 
-var checkbox = document.getElementById('subscribe').value;
+var checkbox = document.getElementById('subscribe').checked;
 
 console.log(checkbox);
 
 });
+
 //on submition create account is hidden
 function toggle() {
     var x = document.getElementById('form');
+
+    var y = document.getElementById('accountCreated');
+
 
     if (x.style.display === 'none') {
         x.style.display = 'block';
     }
     else {
         x.style.display = 'none';
+        document.getElementById('accountCreated').innerHTML = 'Account created';
+
     }
 }
