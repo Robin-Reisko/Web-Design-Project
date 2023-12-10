@@ -1,3 +1,4 @@
+
 body{
     background-color: rgb(116, 204, 105);
 }
@@ -53,49 +54,26 @@ a:hover{
 
 }
 #myH2{
-    text-align-last: center;
-    border: 3px green;
+    text-align: center;
 }
-p2{
+#div1{
     text-align-last: left;
     float: left;
     border: 5px white solid;
     width: 50%;
 }
 
-p3{
-    text-align-last: left;
-    float: left;
-    border: 5px white solid;
+#div2{
+    float: right;
     width: 50%;
+    border: lime 5px solid;
+}
 
-}
-h4{
-    float: right;
-    width: 50%;
-    border: lime 5px solid;
-}
-p4{
-    float: right;
-    width: 50%;
-    border: lime 5px solid;
-}
-p5{
-    float: right;
-    width: 50%;
-    border: lime 5px solid;
-}
-h5{
-    float: initial;
+#div3{
+    float: left;
     text-align: center;
     border: black 5px solid;
 }
-p6{
-    text-align-last: bottom;
-
-}
-
-    
 
 @media only screen and (min-width : 1224px) {
     #myH2 {
