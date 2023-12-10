@@ -24,7 +24,7 @@ var checkbox = document.getElementById('subscribe').value;
 console.log(checkbox);
 
 });
-
+//on submition create account is hidden
 function toggle() {
     var x = document.getElementById('form');
 
