@@ -1,4 +1,69 @@
 body{
-    text-align: center;
+    
+    background-color: rgb(116, 204, 105);
+}
 
+h1{
+    text-align: center;
+    color: blue;
+    border: 2px solid rgb(0, 26, 255);
+}
+
+legend {
+    font-size: 30px;
+    text-align: left;
+}
+
+fieldset {
+    text-align: center;
+    width: 40%;
+    min-width: 320px;
+    margin: auto;
+}
+
+input[type="text"] {
+    padding: .5em 1em;
+    border-radius: 6px;
+    background-color: rgb(237, 237, 151);
+    color: rgb(0, 0, 0);
+    font-family: 'lato', sans-serif;
+    font-size: 12px;
+}
+
+input[type="email"] {
+    padding: .5em 1em;
+    border-radius: 6px;
+    background-color: rgb(237, 237, 151);
+    color: rgb(0, 0, 0);
+    font-family: 'lato', sans-serif;
+    font-size: 12px;
+}
+
+input[type="submit"] {
+    padding: .5em 1em;
+    border-radius: 6px;
+    background-color: rgb(108, 120, 196);
+    color: rgb(0, 0, 0);
+    font-family: 'lato', sans-serif;
+    font-size: 12px;
+}
+
+input[type="reset"] {
+    padding: .5em 1em;
+    border-radius: 6px;
+    background-color: rgb(108, 120, 196);
+    color: rgb(0, 0, 0);
+    font-family: 'lato', sans-serif;
+    font-size: 12px;
+}
+
+h4 {
+    text-align: center;
+}
+p .events {
+    text-align: left;
+}
+
+p .newsletter {
+    text-align: right;
 }
