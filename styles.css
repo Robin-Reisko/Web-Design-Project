@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(116, 204, 105);
+}
+
+#navbar{
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    display: inline-flex;
+    word-spacing: 100px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+span{
+    display: inline-block;
+    text-decoration: none;
+    margin: 8px;
+    font-weight: 600;
+    font-size: 32px;
+    font-family: 'lato', sans-serif;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none; 
+    display: inline;
+    align-items: center;
+    color: black;
+}
+
+a:hover{
+    background-color: green;
+}
