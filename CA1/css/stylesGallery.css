@@ -1,13 +1,48 @@
-/* Gallery page */
+/* Header */
 
 body{
     background-color: rgb(116, 204, 105);
+    margin: 10px;
 }
 
 h1{
     text-align: center;
     color: blue;
     border: 2px solid rgb(0, 26, 255);
+    width: 100%;
+}
+
+/* Gallery page */
+
+#pictures{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#pOne{
+    border: 5px solid black;
+    height: 360px;
+    width: 520px;
+}
+
+#pTwo{
+    border: 5px solid black;
+    height: 360px;
+    width: 560px;
+}
+
+#pThree{
+    border: 5px solid black;
+    height: 360px;
+    width: 360px;
+}
+
+#pFour{
+    border: 5px solid black;
+    height: 360px;
+    width: 460px;
 }
 
 /* Navigation Bar (NavBar) */
@@ -21,12 +56,17 @@ h1{
     border: 2px;
     border-color: black;
     border-style: solid;
+    text-decoration: none;
+    position: sticky;
+    top: 0;
+    background-color: rgb(116, 204, 105);
 }
 
 span{
     display: inline-block;
     text-decoration: none;
-    margin: 8px;
+    margin-top: 8px;
+    padding: 4px;
     font-weight: 600;
     font-size: 32px;
     font-family: 'lato', sans-serif;
