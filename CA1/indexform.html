@@ -8,55 +8,75 @@
 
     </head>
     <body>
+        <h1>Sustainability</h1>
 
-        <h1>Create Account</h1>
-        <hr>
+        <hr color="black">
+
+
+          
 
         <br>
-        <form>
-            <div id="myForm">
+            <form  id="form">
+                <fieldset>
+                    <legend>Create Account</legend>
+                         <br>
                 <div id="div1">
                     <lable>First Name:</lable>
-                    <input type="text" id="fName" placeholder="Enter First Name">
+                    <input type="text" id="fName" 
+                    placeholder="Enter First Name" required autofocus>
                 </div>
 
                 <br>
 
                 <div id="div2">
                     <lable>Last Name:</lable>
-                    <input type="text" id="lName" placeholder="Enter Last Name">
+                    <input type="text" id="lName" placeholder="Enter Last Name" 
+                    required>
                 </div>
 
                 <br>
 
                 <div id="div3">
                     <lable>Email:</lable>
-                    <input type="text" id="Email" placeholder="Enter Email Adress">
+                    <input type="email" id="Email" placeholder="Enter Email Adress" required>
                 </div>
 
                 <br>
 
                 <div id="div4">
-                    <lable for="subscribe">would you like to recieve a news letter with <br> weekly 
-                        updates on ways to increase your sustainablity at home</lable>
+                    <lable for="subscribe">would you like to recieve our news letter</lable>
                     <br>
                     <input type="checkbox" id="subscribe">
+                    
                 </div>
 
                 <br>
-            </div>    
+    
                 <div id="div5">
-                        
-                    <button type="button" onclick="resetForm()">Reset</button>
+                            
+                    <input type="reset">
 
-                    <button type="button" onclick="submitForm()" id="check">Submit</button>
+                    <input type="submit" value="Submit" id="submitForm" onclick="toggle()">
                 </div>
-            
+            </fieldset>
+            </form>
 
-            <script src="javascript/script.js"></script>
+            <div>
+                <h4>benefits of becoming a member</h4>
+
+                <p id="events">accesses to organised events <br>and talks.</p>
+            </div>
+            <div>
+                <p id="newsletter">accesses to news letter</p>
+            </div>
+        <footer>
+            <hr color="black">
+            <span></span>
+        </footer>
 
 
-        </form>
+        <script src="javascript/script.js"></script>
+        <script src="javascript/script2.js"></script>
 
     </body>
 
