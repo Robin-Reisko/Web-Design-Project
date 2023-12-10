@@ -1,15 +1,49 @@
-/* Index page */
+/* Header */
+
 
 body{
     background-color: rgb(116, 204, 105);
+    margin: 10px;
 }
 
 h1{
     text-align: center;
     color: blue;
     border: 2px solid rgb(0, 26, 255);
+    width: 100%;
 }
 
+/* Home Page */
+
+#div1{
+    padding-top: 30px;
+    text-align: center;
+    border: black 5px solid;
+}
+
+#div2{
+    padding-top: 20px;
+    text-align: center;
+    border: black 5px solid;
+}
+
+#div3{
+    padding-top: 5px;
+    text-align: center;
+
+}
+
+@media only screen and (min-width : 1224px) {
+    #myH2 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+      display: none;
+    }
+  }
 
 /* Navigation Bar (NavBar) */
 
