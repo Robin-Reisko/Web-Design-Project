@@ -1,4 +1,4 @@
-/* Forms page */
+/* Header */
 
 body{
     
@@ -9,7 +9,10 @@ h1{
     text-align: center;
     color: blue;
     border: 2px solid rgb(0, 26, 255);
+    width: 100%;
 }
+
+/* Forms page */
 
 legend {
     font-size: 30px;
