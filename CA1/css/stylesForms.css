@@ -62,6 +62,26 @@ input[type="reset"] {
     font-size: 12px;
 }
 
+@media only screen and (max-width: 600px) {
+    body{
+      width: auto;
+      font-size: 20px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    
+    body{
+      width: auto;
+      font-size: 20px;
+      }
+    }
+
+    @media only screen and (min-width: 992px){
+        body{
+            width: 98%;
+            font-size: 15px;
+        }
+
 /* Navigation Bar (NavBar) */
 
 #navbar{
