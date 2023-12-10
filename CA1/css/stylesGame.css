@@ -1,4 +1,4 @@
-/* Game page */
+/* Header */
 
 body{
     background-color: rgb(116, 204, 105);
@@ -8,7 +8,12 @@ h1{
     text-align: center;
     color: blue;
     border: 2px solid rgb(0, 26, 255);
+    width: 100%;
 }
+
+/* Game page */
+
+
 
 /* Navigation Bar (NavBar) */
 
