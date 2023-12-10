@@ -76,7 +76,8 @@ input[type="reset"] {
 span{
     display: inline-block;
     text-decoration: none;
-    margin: 8px;
+    margin-top: 8px;
+    padding: 4px;
     font-weight: 600;
     font-size: 32px;
     font-family: 'lato', sans-serif;
