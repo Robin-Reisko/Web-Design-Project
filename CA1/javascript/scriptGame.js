@@ -1,4 +1,4 @@
-// Sample questions and answers
+// questions and answers
 const questions = [
     {
         question: "What material is the most eco-friendly in terms of Recyclability?",
@@ -62,32 +62,29 @@ function checkAnswer(selectedOption) {
         alert("Wrong. Try again!");
     }
 
-    // Move to the next question
+
     currentQuestionIndex++;
 
-    // Check if there are more questions
+
     if (currentQuestionIndex < questions.length) {
         displayQuestion();
     } else {
         alert("Congratulations! You completed the EcoQuiz.");
-        // You can add more actions here, such as restarting the game.
+
     }
 }
 
-// ... (Previous code)
 
-// Function to restart the game
+// function to restart the game and check user's previous answer
+
 function restartGame() {
     currentQuestionIndex = 0;
     displayQuestion();
 }
 
-// Initial display of the first question
+
 displayQuestion();
 
-// ... (Remaining code)
-
-// Function to check the selected answer
 function checkAnswer(selectedOption) {
     const currentQuestion = questions[currentQuestionIndex];
 
@@ -97,10 +94,10 @@ function checkAnswer(selectedOption) {
         alert("Wrong. Try again!");
     }
 
-    // Move to the next question
+
     currentQuestionIndex++;
 
-    // Check if there are more questions
+
     if (currentQuestionIndex < questions.length) {
         displayQuestion();
     } else {
